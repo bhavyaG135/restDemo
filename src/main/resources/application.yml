@@ -1,0 +1,9 @@
+server:
+  port: 9402
+  contextPath: /emp-service
+  
+logging:
+  file: /var/tmp/emp-service/emp-service
+  level:
+   root: info
+   com.bg.restDemo.controller: debug
